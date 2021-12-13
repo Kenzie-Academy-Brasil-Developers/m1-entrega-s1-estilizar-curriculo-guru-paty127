@@ -1,5 +1,29 @@
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #181818;
+	float: right;
+	width: 72.5%;
+}
+
+#cv {
+	margin: 30px;
+	max-width: 900px;
+	width: 80%;
+}
 .clear {
 	clear: both;
+}
+.subDetails{
+	font-style: italic;
+	font-family: "Rokkitt", Helvetica, sans-serif;
+}
+.jetblack{
+	color: #181818;
+	padding-top: 25px;
+	margin-top: -5px;
+}
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
 }
 
 #headshot {
@@ -8,20 +32,47 @@
 	margin-right: 30px;
 }
 
-#name {
-	float: left;
+#headshot img{
+	border-radius: 30em;
+	margin-bottom: 10px;
 }
 
+#name {
+	float: left;
+	padding-left: 20px;
+	margin: 10px;
+	font-family: "Rokkitt", Helvetica, sans-serif;
+}
+
+h1{
+	margin-bottom: -20px;
+	font-family: "Rokkitt", Helvetica, sans-serif;
+}
+h2{
+	margin-bottom: -12px;
+	font-family: "Rokkitt", Helvetica, sans-serif;
+}
 #contactDetails {
 	float: right;
+	font-family: "Rokkitt", Helvetica, sans-serif;
 }
 
 .sectionTitle {
+	font-family: arial;
+	color: #cf8a05;
 	float: left;
 	width: 25%;
+	font-style: italic;
 }
 
 .sectionContent {
+	color: #444444;
 	float: right;
-	width: 72.5%;
+	width: 71.5%;
+	border-bottom: 1px solid #dedede
+	font-family: "Rokkitt", Helvetica, sans-serif;
 }
+
+
+
+
